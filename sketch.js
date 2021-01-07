@@ -33,7 +33,7 @@ function setup(){
   gameOver.visible = false;
 }
 function draw(){
-  background("pink");
+  background("orange");
   
   var edges = createEdgeSprites();
   sword.collide(edges);
@@ -67,7 +67,7 @@ function draw(){
   }
  drawSprites();
   
-  stroke("red");
+  fill("red");
    text("score : " + score,500,10);
   
 }
